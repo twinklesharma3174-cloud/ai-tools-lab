@@ -18,6 +18,7 @@ def bubble_sort(arr):
         # If no elements were swapped in the inner loop, the list is already sorted
         if not swapped:
             break
+        return arr
 
 # Example usage:
 if __name__ == "__main__":
